@@ -1,8 +1,8 @@
 from tkinter import Tk
-from empresa import Empresa
+from empresa_tk import EmpresaTK
 def main():
     app = Tk()
-    Empresa(app)
+    EmpresaTK(app)
     app.mainloop()
 
 if __name__ == "__main__":
