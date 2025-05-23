@@ -1,0 +1,7 @@
+CREATE TABLE empresa(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	ruc VARCHAR(20) NOT NULL UNIQUE,
+	razon_social VARCHAR(150) UNIQUE,
+	direccion VARCHAR(100),
+	estado INT DEFAULT 1
+);
